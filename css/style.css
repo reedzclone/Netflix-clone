@@ -9,10 +9,11 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #1a1919;
     color: #999;
+  
 }
 
 ul {
@@ -336,16 +337,26 @@ img {
 }
 
 .ques {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(56, 56, 56);
     color: #fff;
     padding: 2rem 2rem;
     margin-bottom: 0.6rem;
+
 }
 
 .ques:hover {
     cursor: pointer;
     background-color: rgb(94, 94, 94);
     transition: 0.2s ease-in-out;
+}
+
+.icon-btn {
+    font-size: 2.5rem;
+    outline: none;
+    border: none;
 }
 
 .ques h2 {
